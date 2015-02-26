@@ -9,9 +9,11 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 ### Alias
 
 ```
-alias -g nibi="npm install && bower install"
-alias -g sassw="sass -w sass:css"
-alias -g zshc="~/.zshrc"
+alias nibi="npm install && bower install"
+alias sassw="sass -w sass:css"
+alias zshc="~/.zshrc"
+alias mg="mongod"
+alias rs="redis-server"
 alias pyserver="python -m SimpleHTTPServer"
 ```
 
@@ -23,7 +25,7 @@ alias hide_file="defaults write com.apple.Finder AppleShowAllFiles NO && killall
 
 ### Plugins
 ```
-plugins=( [plugins...] git sublime zsh-syntax-highlighting yeoman)
+plugins=( [plugins...] git sublime zsh-syntax-highlighting yeoman web-search)
 ```
 
 #### Zsh-syntax-highlighting
