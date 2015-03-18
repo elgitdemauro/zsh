@@ -28,6 +28,11 @@ alias hide_file="defaults write com.apple.Finder AppleShowAllFiles NO && killall
 plugins=( [plugins...] git sublime zsh-syntax-highlighting yeoman web-search)
 ```
 
+### To activate nvm, you need to source it from your shell
+```
+source ~/.nvm/nvm.sh
+```
+
 #### Zsh-syntax-highlighting
 
 by [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
